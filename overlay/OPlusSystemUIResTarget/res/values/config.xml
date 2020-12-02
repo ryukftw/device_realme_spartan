@@ -8,4 +8,6 @@
     <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
     <bool name="config_roundedCornerMultipleRadius">true</bool>
 
+    <!-- Margin on the bottom of the charging indicator on Keyguard -->
+    <dimen name="keyguard_indication_margin_bottom">3dp</dimen>
 </resources>
