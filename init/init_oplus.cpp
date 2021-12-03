@@ -38,4 +38,9 @@ void OverrideProperty(const char* name, const char* value) {
  * after the original property has been set.
  */
 void vendor_load_properties() {
+    auto prjname = std::stoi(GetProperty("ro.boot.prjname", "0"));
+
+    if (prjname != 21623 && prjname != 21732) {
+        OverrideProperty("ro.boot.product.hardware.sku", "nfc");
+    }
 }
