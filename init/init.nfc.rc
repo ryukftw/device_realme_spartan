@@ -1,0 +1,22 @@
+on boot && property:ro.boot.product.hardware.sku=nfc
+    enable nqnfc_2_0_hal_service
+    enable qti_esepowermanager_service_1_1
+    enable secureelement-hal_1_2
+
+service qti_esepowermanager_service_1_1 /odm/bin/hw/vendor.qti.esepowermanager@1.1-service
+    class hal
+    user system
+    group nfc system
+    disabled
+
+service secureelement-hal_1_2 /odm/bin/hw/vendor.qti.secure_element@1.2-service
+    class hal
+    user system
+    group system
+    disabled
+
+service nqnfc_2_0_hal_service /vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
+    class hal
+    user nfc
+    group nfc
+    disabled

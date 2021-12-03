@@ -18,6 +18,12 @@ cc_library_static {
 }
 
 prebuilt_etc {
+    name: "init.nfc.rc",
+    src: "init.nfc.rc",
+    sub_dir: "init"
+}
+
+prebuilt_etc {
     name: "init.qcom.rc",
     src: "init.qcom.rc",
     sub_dir: "init/hw",

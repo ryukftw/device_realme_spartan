@@ -555,7 +555,6 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
 # ESE
 odm/bin/hw/vendor.qti.esepowermanager@1.1-service
-odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc
 odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 odm/lib64/vendor.qti.esepowermanager@1.0.so
 odm/lib64/vendor.qti.esepowermanager@1.1.so
@@ -1105,7 +1104,6 @@ vendor/radio/qcril_database/qcril.db
 
 # Secure element
 odm/bin/hw/vendor.qti.secure_element@1.2-service
-odm/etc/init/vendor.qti.secure_element@1.2-service.rc
 odm/lib64/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
