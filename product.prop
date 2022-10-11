@@ -6,3 +6,8 @@ ro.opa.device_model_id=ga-oplus-skill-os121-211011
 
 # RR Thresshold
 debug.sf.frame_rate_multiple_threshold=60
+
+# enable debugging
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.debuggable=1
