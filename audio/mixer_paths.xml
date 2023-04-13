@@ -2600,7 +2600,7 @@
     </path>
 
     <path name="speaker-mono">
-        <ctl name="TFA_CHIP_SELECTOR" value="2" />
+        <ctl name="TFA_CHIP_SELECTOR" value="1" />
         <ctl name="TFA Profile" value="speaker" />
     </path>
 
@@ -2743,7 +2743,7 @@
     </path>
 
     <path name="handset">
-        <ctl name="TFA_CHIP_SELECTOR" value="1" />
+        <ctl name="TFA_CHIP_SELECTOR" value="2" />
         <ctl name="TFA Profile" value="receiver" />
     </path>
 
@@ -4583,12 +4583,12 @@
     </path>
 
     <path name="mmi-speaker-right">
-        <ctl name="TFA_CHIP_SELECTOR" value="2" />
+        <ctl name="TFA_CHIP_SELECTOR" value="1" />
         <ctl name="TFA Profile" value="speaker" />
     </path>
 
     <path name="mmi-speaker-left">
-        <ctl name="TFA_CHIP_SELECTOR" value="1" />
+        <ctl name="TFA_CHIP_SELECTOR" value="2" />
         <ctl name="TFA Profile" value="speaker" />
     </path>
 
