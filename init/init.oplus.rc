@@ -39,6 +39,13 @@ on early-boot
 
 on boot
     # Display
+    chmod 0666 /dev/oplus_display
+    chmod 0666 /sys/kernel/oplus_display/dimlayer_bl_en
+    chmod 0666 /sys/kernel/oplus_display/dynamic_osc_clock
+    chmod 0666 /sys/kernel/oplus_display/hbm
+    chmod 0666 /sys/kernel/oplus_display/notify_fppress
+    chmod 0666 /sys/kernel/oplus_display/panel_serial_number
+
     chown system system /dev/oplus_display
     chown system system /sys/kernel/oplus_display/dimlayer_bl_en
     chown system system /sys/kernel/oplus_display/dynamic_osc_clock
