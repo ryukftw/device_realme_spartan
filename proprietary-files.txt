@@ -115,11 +115,12 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
-# Camera - from OnePlus 11 5G (CPH2449_14.0.0.501(EX01))
-odm/lib64/libarcsoft_dualcam_bokeh_api.so|45f92f6329a49d940b5816eef03a572d94114354
-odm/lib64/libarcsoft_dualcam_refocus_left.so|9cdbd0d949910ef25c980ef612087ad2e87f29c5
-odm/lib64/libarcsoft_dualcam_refocus_preview.so|4e52ec0d24007757fad40e72dc356b065218bd1d
-odm/lib64/libarcsoft_dualcam_refocus_uw.so|b6887871bf79c813631a1f985cf29ede9587f8e6
+# Camera - from OnePlus 12 (CPH2581_14.0.0.830(EX01))
+odm/lib64/libarcsoft_dualcam_bokeh_api.so|bfdca4001321d1da972a5d8203b7f2aab6bbeb4d
+odm/lib64/libarcsoft_dualcam_refocus_left.so|af5108ddfcb055ea6d55a03831a39f5001ab287e
+odm/lib64/libarcsoft_dualcam_refocus_preview.so|41c885f87cecd952b4fa5eb7459c3dc5f832b893
+odm/lib64/libarcsoft_dualcam_refocus_uw.so|ac685bfd05d0fd656a17df96c083086e91425802
+odm/lib64/libarc.ion.so|66db5600d6ac48ac5abb7ed7aecdcf3fee92dbc2
 
 # Camera (All)
 odm/bin/vl53l1_daemon_main
