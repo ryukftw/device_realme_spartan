@@ -527,4 +527,7 @@
         <item>104</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
+    <!-- Whether to use Richtap vibration -->
+    <bool name="config_usesRichtapVibration">true</bool>
+
 </resources>
