@@ -17,4 +17,7 @@
     <!-- Color of the UDFPS Pressed view -->
     <color name="config_udfpsColor">#00ffffff</color>
 
+    <!-- Charging info current divider, if needed -->
+    <integer name="config_currentInfoDivider" translatable="false">1</integer>
+
 </resources>
