@@ -183,10 +183,6 @@ PRODUCT_COPY_FILES += \
     prebuilts/vndk/v33/arm/arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_foundation-v33.so \
     prebuilts/vndk/v33/arm64/arch-arm64-armv8-a/shared/vndk-core/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_foundation-v33.so
 
-# Doze
-PRODUCT_PACKAGES += \
-    OplusDoze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
@@ -355,9 +351,7 @@ PRODUCT_PACKAGES += \
     WifiResTarget
 
 # Oplus Camera
-ifeq ($(WITH_OPLUS_CAMERA),true) # use export WITH_OPLUS_CAMERA=true after lunch to build camera
 $(call inherit-product, vendor/oplus/camera/opluscamera.mk)
-endif
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
