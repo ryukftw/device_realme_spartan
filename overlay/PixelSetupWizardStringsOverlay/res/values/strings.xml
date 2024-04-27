@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="bc_welcome_message">Welcome to your Realme</string>
+     <string name="deferred_setup_wizard_title">Finish setting up your Realme</string>
+     <string name="device_name">GT Neo 3T</string>
+</resources>
