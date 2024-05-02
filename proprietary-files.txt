@@ -119,6 +119,12 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 
+# Camera - from OnePlus 11 5G (CPH2449_14.0.0.501(EX01))
+odm/lib64/libarcsoft_dualcam_bokeh_api.so|45f92f6329a49d940b5816eef03a572d94114354
+odm/lib64/libarcsoft_dualcam_refocus_left.so|9cdbd0d949910ef25c980ef612087ad2e87f29c5
+odm/lib64/libarcsoft_dualcam_refocus_preview.so|4e52ec0d24007757fad40e72dc356b065218bd1d
+odm/lib64/libarcsoft_dualcam_refocus_uw.so|b6887871bf79c813631a1f985cf29ede9587f8e6
+
 # Camera (All)
 odm/bin/vl53l1_daemon_main
 odm/lib/libaiboost.so
@@ -212,10 +218,6 @@ odm/lib64/libapspng.so
 odm/lib64/libarcsoft_aicolor_image.so
 odm/lib64/libarcsoft_aicolor_video.so
 odm/lib64/libarcsoft_distortion_correction.so
-odm/lib64/libarcsoft_dualcam_bokeh_api.so
-odm/lib64/libarcsoft_dualcam_refocus_left.so
-odm/lib64/libarcsoft_dualcam_refocus_preview.so
-odm/lib64/libarcsoft_dualcam_refocus_uw.so
 odm/lib64/libarcsoft_hdr_couple_api.so
 odm/lib64/libarcsoft_hdr_couple_api_v4.so
 odm/lib64/libarcsoft_hdr_denoise_api.so
