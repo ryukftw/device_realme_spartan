@@ -78,7 +78,6 @@
           <item>com.oneplus.camera</item>
           <item>com.oplus.camera</item>
           <item>com.oppo.camera</item>
-          <item>org.derpfest.flash</item>
      </string-array>
 
     <!-- If true, the display will be shifted around in ambient mode. -->
@@ -86,5 +85,8 @@
      
     <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
     <bool name="config_dozePulsePickup">true</bool>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
 
 </resources>
