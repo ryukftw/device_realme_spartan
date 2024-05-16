@@ -11,20 +11,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from spartan device
 $(call inherit-product, device/realme/spartan/device.mk)
 
-# Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common PixelStar stuff.
+$(call inherit-product, vendor/pixelstar/config/common_full_phone.mk)
 
 # Device Specific Flags
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Extras
+# PixelStar Flags
+PIXELSTAR_BUILD_TYPE := Unofficial
+TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_SUPPORTS_QUICK_TAP := true
+USE_PIXEL_CHARGER := true
 
-PRODUCT_NAME := aosp_spartan
+PRODUCT_NAME := pixelstar_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme

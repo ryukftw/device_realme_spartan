@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_spartan.mk
+    $(LOCAL_DIR)/pixelstar_spartan.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_spartan-user \
-    aosp_spartan-userdebug \
-    aosp_spartan-eng
+    pixelstar_spartan-user \
+    pixelstar_spartan-userdebug \
+    pixelstar_spartan-eng
