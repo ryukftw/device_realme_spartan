@@ -514,8 +514,11 @@
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
     <bool name="config_autoBrightnessResetAmbientLuxAfterWarmUp">true</bool>
 
-    <!-- Paths to realme's vooc charging status file -->
-    <string name="config_VoocChargerStatusPaths" translatable="false">/sys/class/oplus_chg/battery/voocchg_ing</string>
+    <!-- Whether device has VOOC charging support -->
+    <bool name="config_hasVoocCharger">true</bool>
+
+    <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">"/sys/class/oplus_chg/battery/voocchg_ing"</string>
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
