@@ -14,4 +14,7 @@
     <!-- Whether show refresh rate QS tile -->
     <bool name="config_showRefreshRateQsTile">true</bool>
 
+    <!-- Color of the UDFPS Pressed view -->
+    <color name="config_udfpsColor">#00ffffff</color>
+
 </resources>
