@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_spartan.mk
+    $(LOCAL_DIR)/blaze_spartan.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_spartan-user \
-    aosp_spartan-userdebug \
-    aosp_spartan-eng
+    blaze_spartan-user \
+    blaze_spartan-userdebug \
+    blaze_spartan-eng
