@@ -120,7 +120,8 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libvulkan \
     vendor.qti.hardware.display.allocator-service \
-    vendor.qti.hardware.display.composer-service \
+    vendor.qti.hardware.display.composer-service.rc \
+    vendor.qti.hardware.display.composer-service.xml \
     vendor.qti.hardware.memtrack-service
 
 PRODUCT_COPY_FILES += \
