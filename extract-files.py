@@ -83,6 +83,8 @@ blob_fixups: blob_fixups_user_type = {
         .binary_regex_replace(b'com.oem.autotest', b'\x00om.oem.autotest'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .sig_replace('23 0A 00 94', '1F 20 03 D5'),
+    'odm/lib64/libAlgoProcess.so': blob_fixup()
+        .replace_needed('android.hardware.graphics.common-V1-ndk_platform.so', 'android.hardware.graphics.common-V5-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
