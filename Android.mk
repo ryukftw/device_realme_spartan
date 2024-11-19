@@ -30,4 +30,14 @@ $(DSP_MOUNT_POINT): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(FIRMWARE_MOUNT_POINT) $(BT_FIRMWARE_MOUNT_POINT) $(DSP_MOUNT_POINT)
 
+CAMERA_COMPONENTS_SYMLINKS := $(TARGET_OUT_VENDOR)/lib64
+$(CAMERA_COMPONENTS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
+	@echo "Creating camera components symlinks: $@"
+	@mkdir -p $@
+	@mkdir -p $@/camera/components
+	$(hide) ln -sf /odm/lib64/camera/components/com.qti.stats.pdlib.so $@/camera/components/com.qti.stats.pdlib.so
+	$(hide) ln -sf /odm/lib64/camera/components/com.qti.stats.haf.so $@/camera/components/com.qti.stats.haf.so
+	$(hide) ln -sf /odm/lib64/camera/components/libipebpsstriping.so $@/libipebpsstriping.so
+
+ALL_DEFAULT_INSTALLED_MODULES += $(CAMERA_COMPONENTS_SYMLINKS)
 endif
