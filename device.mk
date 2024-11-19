@@ -34,11 +34,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     AntHalService-Soong
 
-# Alert slider
-PRODUCT_PACKAGES += \
-    KeyHandler \
-    tri-state-key-calibrate
-
 # Atrace
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
