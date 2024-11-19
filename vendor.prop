@@ -125,7 +125,9 @@ ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
 
 # Crypto
+ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.filenames_mode=aes-256-cts
+ro.crypto.volume.metadata.method=dm-default-key
 
 # Display
 vendor.display.disable_hw_recovery_dump=1
@@ -212,6 +214,7 @@ vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
 vendor.usb.qdss.inst.name=qdss
 vendor.usb.rmnet.func.name=gsi
+vendor.usb.product_string=realme GT NEO 3T
 vendor.usb.rmnet.inst.name=rmnet
 vendor.usb.rndis.func.name=gsi
 vendor.usb.use_ffs_mtp=0
