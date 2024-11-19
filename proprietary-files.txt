@@ -999,7 +999,7 @@ vendor/etc/init/feature_enabler_client.rc
 vendor/lib64/libhdr_tm.so
 
 # Display (HWC)
-vendor/bin/hw/vendor.qti.hardware.display.composer-service;DISABLE_CHECKELF;MAKE_COPY_RULE;MODULE_SUFFIX=_vendor
+vendor/bin/hw/vendor.qti.hardware.display.composer-service;MAKE_COPY_RULE;MODULE_SUFFIX=_vendor
 vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libhistogram.so;MAKE_COPY_RULE;MODULE_SUFFIX=_vendor
 vendor/lib64/libqdutils.so
