@@ -1391,7 +1391,6 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 
 # Media
-odm/etc/media_codecs_c2.xml
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
