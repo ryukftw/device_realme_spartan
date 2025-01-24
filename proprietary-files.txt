@@ -524,9 +524,9 @@ odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin
+odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
 odm/etc/camera/sticker/material/animoji/data.zip
 odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip
-odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
 odm/etc/camera/tonemap/curve_lut_0
 odm/etc/camera/tonemap/curve_lut_1
 odm/etc/camera/tonemap/curve_lut_10
@@ -551,13 +551,14 @@ odm/etc/camera/tonemap/tonemap_lut_6
 odm/etc/camera/tonemap/tonemap_lut_7
 odm/etc/camera/tonemap/tonemap_lut_8
 odm/etc/camera/tonemap/tonemap_lut_9
+odm/lib/libDeVIS.so
 odm/lib/libaiboost.so
 odm/lib/libaiboost_hexagon.so
 odm/lib/libaiboost_nnlib_sr.so
 odm/lib/libaiboost_sr.so
 odm/lib/libaiboost_ubwc.so
-odm/lib/libDeVIS.so
 odm/lib/libc++_shared.so
+odm/lib/libfastov_dsp.so
 odm/lib/libosie_process.so
 odm/lib/libosie_stub.so
 odm/lib64/lib2DSlender.so
@@ -602,7 +603,6 @@ odm/lib64/libRedeyeReduce.so
 odm/lib64/libSEC.HybridHDR.so
 odm/lib64/libSNPE.so
 odm/lib64/libSNPE_G.so
-odm/lib/libfastov_dsp.so
 odm/lib64/libSonyIMX471RmscLibrary.so
 odm/lib64/libStarMode.so
 odm/lib64/libSuperRaw.so
@@ -676,7 +676,7 @@ odm/lib64/libcdm_metrics_protos.so
 odm/lib64/libcdm_protos.so
 odm/lib64/libcom.oplus.calidatacontainer.so
 odm/lib64/libcvface_api.so
-odm/lib64/libdav1d.so.4
+odm/lib64/libdav1d.so.4|e5f7a5896eb91eefe1393d5961e3a74f8c26b5c8
 odm/lib64/libdmtp.so
 odm/lib64/libeffect_custom.so
 odm/lib64/libexif-jpeg-aps.so
@@ -716,10 +716,9 @@ odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib/libextcamera_client.so
+vendor/lib/libgui1_vendor.so
 vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
-vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
 vendor/lib64/com.qti.feature2.frameselect.so
@@ -735,6 +734,8 @@ vendor/lib64/com.qti.feature2.rt.so
 vendor/lib64/com.qti.feature2.serializer.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
+vendor/lib64/hw/camera.qcom.so
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
 vendor/lib64/libFace3DTA.so
@@ -889,11 +890,11 @@ odm/lib64/camera/com.qti.sensor.ov64b.so
 odm/lib64/camera/com.qti.sensormodule.qtech_ov64b.bin
 odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
 odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin
-odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin
+odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin|22a609cd349e8691dd979aa33c18ebb239b1e9b3
 odm/lib64/camera/com.qti.tuned.sm8250_qtech_ov64b.bin
 odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b.bin
 odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin
-odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin
+odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin|ad3b301236a48ec6fa49c0d7560c5b0def6734ef
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -1044,25 +1045,25 @@ vendor/lib64/vendor.display.postproc@1.0.so
 
 # Dolby
 odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service
+odm/etc/audio_effects.xml
 odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc
 odm/etc/vintf/manifest/manifest_dax_dolby_v3_6.xml
-odm/etc/audio_effects.xml
-odm/lib/libstagefright_soft_ddpdec_v3_6.so:odm/lib/libstagefright_soft_ddpdec.so
-odm/lib/soundfx/libhwdap_v3_6.so
-odm/lib/soundfx/libswdap_v3_6.so
 odm/lib/libdapparamstorage_v3_6.so
 odm/lib/libdeccfg_v3_6.so
 odm/lib/libdlbdsservice_v3_6.so
 odm/lib/libqtigef.so
+odm/lib/libstagefright_soft_ddpdec_v3_6.so:odm/lib/libstagefright_soft_ddpdec.so
 odm/lib/libstagefrightdolby.so
+odm/lib/soundfx/libhwdap_v3_6.so
+odm/lib/soundfx/libswdap_v3_6.so
 odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so
 odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0.so
-odm/lib64/soundfx/libhwdap_v3_6.so
-odm/lib64/soundfx/libswdap_v3_6.so
 odm/lib64/libdapparamstorage_v3_6.so
 odm/lib64/libdeccfg_v3_6.so
 odm/lib64/libdlbdsservice_v3_6.so
 odm/lib64/libqtigef.so
+odm/lib64/soundfx/libhwdap_v3_6.so
+odm/lib64/soundfx/libswdap_v3_6.so
 odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so
 odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so
 
@@ -1118,18 +1119,17 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # ESE
-odm/bin/hw/vendor.qti.esepowermanager@1.1-service
-odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc
-odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
-odm/lib64/vendor.qti.esepowermanager@1.0.so
-odm/lib64/vendor.qti.esepowermanager@1.1.so
+odm/bin/hw/vendor.qti.esepowermanager@1.1-service|07baf42501273bbe825738dcfb57562adc81677c
+odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc|411babc69fec1fa479079039120b619554e01145
+odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|7b67b47030f00af1c2e207995eea05f05fb91b23
+odm/lib64/vendor.qti.esepowermanager@1.0.so|220f1df044b7922e14e1360a75c145adf204c303
+odm/lib64/vendor.qti.esepowermanager@1.1.so|07269ab6a63720f75a30e5cb716152a823fb3323
 
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/bin/init.oplus.fingerprints.sh
-odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
+odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc|36814defb921baa3703c39eae017ee6a4bd4135e
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
-odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
 odm/lib64/anc.hal.so
 odm/lib64/hw/fingerprint.goodix_G2.default.so
 odm/lib64/hw/fingerprint.goodix_G3.default.so
@@ -1141,7 +1141,8 @@ odm/lib64/libgf_hal_G3.so
 odm/lib64/libgf_hal_G5.so
 odm/lib64/libgf_hal_G6.so
 odm/lib64/libgf_hal_G7.so
-odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
+odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
+odm/lib64/vendor.oplus.hardware.commondcs@1.0.so|64eeee3fc357cdbfb42a41e169983992e55d93da
 odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so
 
 # Fingerprint firmware
@@ -1444,9 +1445,9 @@ vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # NFC
-odm/etc/nfc/libnfc-mtp-SN100.conf_19805:vendor/etc/libnfc-nxp.conf
-odm/etc/nfc/libnfc-nci.conf_19805:vendor/etc/libnfc-nci.conf
-odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_53:vendor/firmware/sn100u.bin
+odm/etc/nfc/libnfc-mtp-SN100.conf_19805:vendor/etc/libnfc-nxp.conf|6c0f9ade59b923cbf3f228e0b0177a7c596c3e8f
+odm/etc/nfc/libnfc-nci.conf_19805:vendor/etc/libnfc-nci.conf|ff40e422b9fbba9cdaf0af57b58d4afbea1e3cb2
+odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_53:vendor/firmware/sn100u.bin|c30861707e34299a9d2e9520d30bb4df79e58e75
 
 # OMX
 vendor/lib/libOmxAacDec.so
@@ -1493,7 +1494,7 @@ vendor/lib64/libperipheral_client.so
 vendor/lib64/libspcom.so
 
 # Perf
-odm/lib64/vendor.oplus.hardware.performance@1.0.so
+odm/lib64/vendor.oplus.hardware.performance@1.0.so|b5ff1b8a6da96123fa5052c0ea4f3c8c77db3d50
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
@@ -1519,7 +1520,7 @@ vendor/lib64/libqti-util.so
 
 # Power-off alarm
 product/app/PowerOffAlarm/PowerOffAlarm.apk|eda6abb2108245e143eafc66b42c9da2e37d416b
-system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
+system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar|f3c1fcc4d74e1ef63c5a87177850b85fc20e2a92
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
@@ -1530,8 +1531,8 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
 # QMI
-system/etc/permissions/privapp-permissions-qti.xml
-system/etc/sysconfig/qti_whitelist.xml
+system/etc/permissions/privapp-permissions-qti.xml|e928e890c7e8cddf74941ce121e957c381147400
+system/etc/sysconfig/qti_whitelist.xml|52356fa5365d3a369ce659fde6831c9ebbe8313c
 vendor/bin/irsc_util
 vendor/bin/qmipriod
 vendor/etc/init/qmipriod.rc
@@ -1587,8 +1588,8 @@ system_ext/etc/permissions/qti_permissions.xml
 system_ext/framework/qcrilhook.jar
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/app/IWlanService/IWlanService.apk
-vendor/bin/adpl
 vendor/bin/ATFWD-daemon
+vendor/bin/adpl
 vendor/bin/hw/qcrild
 vendor/bin/init.mdm.sh
 vendor/bin/ks
@@ -1628,17 +1629,17 @@ vendor/lib64/liblqe.so
 vendor/lib64/libmdmdetect.so
 vendor/lib64/libmdmimgload.so
 vendor/lib64/libminkdescriptor.so
+vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libnetmgr_nr_fusion.so
 vendor/lib64/libnetmgr_rmnet_ext.so
-vendor/lib64/libnetmgr.so
 vendor/lib64/libnlnetmgr.so
 vendor/lib64/liboemnvbk_img_helper.so
 vendor/lib64/libpdmapper.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libqcbor.so
-vendor/lib64/libqcrildatactl.so
 vendor/lib64/libqcrilFramework.so
+vendor/lib64/libqcrildatactl.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libril-qc-hal-qmi.so
@@ -1667,15 +1668,16 @@ vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so
+vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so
+vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so
+vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so
-vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so
 vendor/radio/qcril_database/qcril.db
 vendor/radio/qcril_database/upgrade/0_initial.sql
+vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/1_version_intro.sql
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
@@ -1683,11 +1685,13 @@ vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 # Secure element
-odm/bin/hw/vendor.qti.secure_element@1.2-service
-odm/etc/init/vendor.qti.secure_element@1.2-service.rc
-odm/lib64/android.hardware.secure_element@1.0-impl.so
+odm/bin/hw/vendor.qti.secure_element@1.2-service|a71193d9c14942119a0d46c35d0f4151c78526a8
+odm/etc/init/vendor.qti.secure_element@1.2-service.rc|14f20ae397ecfacfca121ce4f06c2e2012cd99e8
+odm/lib64/android.hardware.secure_element@1.0-impl.so|c1729c7536ec451d080a097949148bae876bb8c2
 
 # Sensors
 odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service
@@ -1845,61 +1849,61 @@ vendor/lib64/libQTEEConnector_vendor.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # Vibrator firmware
-odm/firmware/100ms_RTP.bin
-odm/firmware/120ms_RTP.bin
-odm/firmware/140ms_RTP.bin
-odm/firmware/160ms_RTP.bin
-odm/firmware/180ms_RTP.bin
-odm/firmware/200ms_RTP.bin
-odm/firmware/20ms_RTP.bin
-odm/firmware/220ms_RTP.bin
-odm/firmware/240ms_RTP.bin
-odm/firmware/260ms_RTP.bin
-odm/firmware/280ms_RTP.bin
-odm/firmware/300ms_RTP.bin
-odm/firmware/320ms_RTP.bin
-odm/firmware/340ms_RTP.bin
-odm/firmware/360ms_RTP.bin
-odm/firmware/380ms_RTP.bin
-odm/firmware/400ms_RTP.bin
-odm/firmware/40ms_RTP.bin
-odm/firmware/420ms_RTP.bin
-odm/firmware/440ms_RTP.bin
-odm/firmware/460ms_RTP.bin
-odm/firmware/480ms_RTP.bin
-odm/firmware/500ms_RTP.bin
-odm/firmware/60ms_RTP.bin
-odm/firmware/80ms_RTP.bin
-odm/firmware/aw8697_charging_simulation_RTP_108_226Hz.bin
-odm/firmware/aw8697_charging_simulation_RTP_108_230Hz.bin
-odm/firmware/aw8697_charging_simulation_RTP_108_234Hz.bin
-odm/firmware/aw8697_charging_simulation_RTP_108_237Hz.bin
-odm/firmware/aw8697_charging_simulation_RTP_108.bin
+odm/firmware/100ms_RTP.bin|53d01a8a09986b43ca4c3e706f54b0cef1152a6e
+odm/firmware/120ms_RTP.bin|bd7de4df7e6681b5b7cf9d5a47e49b33d696e3e8
+odm/firmware/140ms_RTP.bin|11cb202a1e862e6cac177a890db3b296858e13a4
+odm/firmware/160ms_RTP.bin|adf9554c1d5a0768c247657a07bdc2f2fa8e4d07
+odm/firmware/180ms_RTP.bin|35a3d1a70258c76a031ffa2163cf53c650883c86
+odm/firmware/200ms_RTP.bin|8ceb809eed8435eed2c672bb3e57b3fa7f6bf7be
+odm/firmware/20ms_RTP.bin|bfc5908438bd132a8897fae1a185dd0f27e46fff
+odm/firmware/220ms_RTP.bin|c6dd22692179672a2df6b9a2421efe3990d7c4fa
+odm/firmware/240ms_RTP.bin|ff49f854ce90801f0f8c25181819f6e315cb3da9
+odm/firmware/260ms_RTP.bin|fd51b1ec4cf36e33d6ef4308df22427b46c61264
+odm/firmware/280ms_RTP.bin|24b1796a5661d15f9ddf3bf9bc396a47d594add2
+odm/firmware/300ms_RTP.bin|0e2aad43a12dd67abc1cc73f5fe386ae57ab57a9
+odm/firmware/320ms_RTP.bin|58a1e8d2d627155c4e53d0d4c31647b759f8dfca
+odm/firmware/340ms_RTP.bin|6f36a90d0cca30e5c2480b09894aeeabdb01082f
+odm/firmware/360ms_RTP.bin|5c9df5fedb699f382bbf9a875940f6a8e42c4f91
+odm/firmware/380ms_RTP.bin|132c79c42ce511fb2a32d59c68d081ab4439e756
+odm/firmware/400ms_RTP.bin|345ea7fad43766348303f9c4891714b3a27384b7
+odm/firmware/40ms_RTP.bin|bd5de4fc644190f8d74588eaad2e010d05deee07
+odm/firmware/420ms_RTP.bin|9b77d193c659bf8c1ad37d26acde3e88390af608
+odm/firmware/440ms_RTP.bin|dd588c1f834183064effc68a5fc3bcca82109f15
+odm/firmware/460ms_RTP.bin|4b7dda76b56019ef9b61c0273069f4d1264ff0ff
+odm/firmware/480ms_RTP.bin|7c3d0368a507ea5c49c486ffcc4b8ca01c34e607
+odm/firmware/500ms_RTP.bin|4cf818314c50e4a7aba3daae37fd18e0086ab582
+odm/firmware/60ms_RTP.bin|28aa230a3fd4e46e37544095faa8768a0c917acb
+odm/firmware/80ms_RTP.bin|68e58098ac6ae8ecb5c90bbfd0012a3d2ff4cfe1
+odm/firmware/aw8697_Classical_ring_RTP_oplusos7_135.bin
 odm/firmware/aw8697_Classical_ring_RTP_oplusos7_135_165Hz.bin
 odm/firmware/aw8697_Classical_ring_RTP_oplusos7_135_175Hz.bin
 odm/firmware/aw8697_Classical_ring_RTP_oplusos7_135_226Hz.bin
 odm/firmware/aw8697_Classical_ring_RTP_oplusos7_135_230Hz.bin
 odm/firmware/aw8697_Classical_ring_RTP_oplusos7_135_234Hz.bin
 odm/firmware/aw8697_Classical_ring_RTP_oplusos7_135_237Hz.bin
-odm/firmware/aw8697_Classical_ring_RTP_oplusos7_135.bin
-odm/firmware/aw8697_haptic_166.bin
-odm/firmware/aw8697_haptic_168.bin
-odm/firmware/aw8697_haptic_170.bin
-odm/firmware/aw8697_haptic_172.bin
-odm/firmware/aw8697_haptic_174.bin
-odm/firmware/aw8697_haptic_235_19161.bin
-odm/firmware/aw8697_haptic_235.bin
+odm/firmware/aw8697_charging_simulation_RTP_108.bin
+odm/firmware/aw8697_charging_simulation_RTP_108_226Hz.bin
+odm/firmware/aw8697_charging_simulation_RTP_108_230Hz.bin
+odm/firmware/aw8697_charging_simulation_RTP_108_234Hz.bin
+odm/firmware/aw8697_charging_simulation_RTP_108_237Hz.bin
 odm/firmware/aw8697_haptic.bin
+odm/firmware/aw8697_haptic_166.bin|f57fc6caf1c4b13046b80c57f715b70e8309a653
+odm/firmware/aw8697_haptic_168.bin|f57fc6caf1c4b13046b80c57f715b70e8309a653
+odm/firmware/aw8697_haptic_170.bin
+odm/firmware/aw8697_haptic_172.bin|cf370271e08ab5a3fcac670f9133a48a55a56335
+odm/firmware/aw8697_haptic_174.bin|f3995f1ffe096717fcd4fc8d5829d773bacb29ba
+odm/firmware/aw8697_haptic_235.bin
+odm/firmware/aw8697_haptic_235_19161.bin
+odm/firmware/aw8697_stepable_regulate_RTP_105.bin
 odm/firmware/aw8697_stepable_regulate_RTP_105_226Hz.bin
 odm/firmware/aw8697_stepable_regulate_RTP_105_230Hz.bin
 odm/firmware/aw8697_stepable_regulate_RTP_105_234Hz.bin
 odm/firmware/aw8697_stepable_regulate_RTP_105_237Hz.bin
-odm/firmware/aw8697_stepable_regulate_RTP_105.bin
+odm/firmware/aw8697_strength_level_bar_edge_RTP_107.bin
 odm/firmware/aw8697_strength_level_bar_edge_RTP_107_226Hz.bin
 odm/firmware/aw8697_strength_level_bar_edge_RTP_107_230Hz.bin
 odm/firmware/aw8697_strength_level_bar_edge_RTP_107_234Hz.bin
 odm/firmware/aw8697_strength_level_bar_edge_RTP_107_237Hz.bin
-odm/firmware/aw8697_strength_level_bar_edge_RTP_107.bin
 odm/firmware/awinic_haptic_gun_params.bin
 odm/firmware/awinic_haptic_params.bin
 odm/firmware/barca_alarm_ring_RTP_120.bin
@@ -1946,7 +1950,7 @@ vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 
 # WiFi Display (system)
-system/framework/WfdCommon.jar
+system/framework/WfdCommon.jar|a661c494d064b79a3f71579592411fada1ea232f
 system_ext/bin/wfdservice
 system_ext/etc/init/wfdservice.rc
 system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml
