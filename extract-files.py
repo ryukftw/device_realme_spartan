@@ -56,6 +56,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libshims_fingerprint.oplus.so'),
     'odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml': blob_fixup()
         .patch_file('blob-patches/manifest_oplus_fingerprint.patch'),
+    ('odm/lib64/libCOppLceTonemapAPI.so', 'odm/lib64/libYTCommon.so', 'odm/lib64/libaps_frame_registration.so'): blob_fixup()
+        .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
     ('odm/lib64/mediadrm/libwvdrmengine.so', 'odm/lib64/libwvhidl.so'): blob_fixup()
         .add_needed('libcrypto_shim.so'),
     'product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml': blob_fixup()
