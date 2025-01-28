@@ -660,6 +660,7 @@ odm/lib64/libarcsoft_pic_best.so
 odm/lib64/libarcsoft_portraitSN_hvx_stub.so
 odm/lib64/libarcsoft_portrait_super_night_raw.so
 odm/lib64/libarcsoft_preview_antibanding.so
+odm/lib64/libarcsoft_qnnhtp.so;DISABLE_CHECKELF|760f3be31df910f991bcbf7dd5fe6af9545114e4
 odm/lib64/libarcsoft_scbokeh_image.so
 odm/lib64/libarcsoft_scbokeh_video.so
 odm/lib64/libarcsoft_smart_denoise.so
@@ -1287,7 +1288,9 @@ system_ext/lib64/lib-imsvtutils.so
 system_ext/lib64/libdiag_system.so
 system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
+system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
+system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 system_ext/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon;DISABLE_CHECKELF
