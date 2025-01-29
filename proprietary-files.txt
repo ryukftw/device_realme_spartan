@@ -716,7 +716,6 @@ odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so;MODULE_SUFFIX
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib/libextcamera_client.so
-vendor/lib/libgui1_vendor.so
 vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
 vendor/lib64/com.qti.feature2.anchorsync.so
@@ -761,7 +760,6 @@ vendor/lib64/libcvp_common.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libextcamera_client.so
 vendor/lib64/libface3d_dev.so
-vendor/lib64/libgui1_vendor.so
 vendor/lib64/libmidasserviceintf.so
 vendor/lib64/libmidasserviceintf_aidl.so
 vendor/lib64/libmmcamera_faceproc.so
