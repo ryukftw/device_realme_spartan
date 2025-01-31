@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from RMX3371_14.0.0.1100(EX01).
+## from RMX3371_14.0.0.1310(EX01).
 
 # ACDBs
 odm/etc/acdbdata/Bluetooth_cal.acdb
