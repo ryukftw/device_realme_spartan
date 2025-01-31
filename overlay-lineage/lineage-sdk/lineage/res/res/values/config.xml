@@ -25,6 +25,6 @@
         <item>restart</item>
         <item>restart_recovery</item>
         <item>restart_bootloader</item>
-        <item>restart_systemui</item>
+        <item>restart_fastboot</item>
     </string-array>
 </resources>
