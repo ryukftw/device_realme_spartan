@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-RELAX_USES_LIBRARY_CHECK := true
-
 DEVICE_PATH := device/realme/spartan
 
 # A/B
