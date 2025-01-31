@@ -575,7 +575,6 @@ odm/lib64/libAncSegBaseSdk.so
 odm/lib64/libAncSegmentSdk.so
 odm/lib64/libBokehPre.so
 odm/lib64/libCOppLceTonemapAPI.so
-odm/lib64/libCaptureBokeh.so
 odm/lib64/libDeVIS.so
 odm/lib64/libEIS.so
 odm/lib64/libFDClite.so
@@ -606,7 +605,6 @@ odm/lib64/libSNPE_G.so
 odm/lib64/libSonyIMX471RmscLibrary.so
 odm/lib64/libStarMode.so
 odm/lib64/libSuperRaw.so
-odm/lib64/libSuperTextWrapper.so
 odm/lib64/libTrafficMode.so
 odm/lib64/libVDBayerHDR.so
 odm/lib64/libVDBlurless.so;FIX_SONAME
@@ -618,7 +616,6 @@ odm/lib64/libVDUpScale.so
 odm/lib64/libVideoEnhance.so
 odm/lib64/libWaterMark.so
 odm/lib64/libWaterMode.so
-odm/lib64/libXDocProcessSDK.so
 odm/lib64/libYTCommon.so
 odm/lib64/lib_rectify.so
 odm/lib64/libaiboost.so;FIX_SONAME
@@ -677,7 +674,6 @@ odm/lib64/libcdm_metrics_protos.so
 odm/lib64/libcdm_protos.so
 odm/lib64/libcom.oplus.calidatacontainer.so
 odm/lib64/libcvface_api.so
-odm/lib64/libdav1d.so.4|e5f7a5896eb91eefe1393d5961e3a74f8c26b5c8
 odm/lib64/libdmtp.so
 odm/lib64/libeffect_custom.so
 odm/lib64/libexif-jpeg-aps.so
