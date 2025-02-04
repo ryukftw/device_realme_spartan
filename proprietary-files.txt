@@ -1039,6 +1039,7 @@ vendor/lib64/vendor.display.postproc@1.0.so
 # Dolby
 odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service
 odm/etc/audio_effects.xml
+odm/etc/dolby/multimedia_dolby_dax_default.xml
 odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc
 odm/etc/vintf/manifest/manifest_dax_dolby_v3_6.xml
 odm/lib/libdapparamstorage_v3_6.so
