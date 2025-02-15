@@ -648,8 +648,8 @@ odm/lib64/libarcsoft_hdrplus_hvx_stub.so
 odm/lib64/libarcsoft_high_dynamic_range.so
 odm/lib64/libarcsoft_high_dynamic_range_couple.so
 odm/lib64/libarcsoft_high_dynamic_range_couple_v4.so
-odm/lib64/libarcsoft_high_dynamic_range_v4.so;DISABLE_CHECKELF
-odm/lib64/libarcsoft_hta.so;DISABLE_CHECKELF
+odm/lib64/libarcsoft_high_dynamic_range_v4.so
+odm/lib64/libarcsoft_hta.so
 odm/lib64/libarcsoft_lensstaindetection.so
 odm/lib64/libarcsoft_low_light_hdr.so
 odm/lib64/libarcsoft_low_light_hdr_for_neon.so;FIX_SONAME
@@ -657,7 +657,7 @@ odm/lib64/libarcsoft_pic_best.so
 odm/lib64/libarcsoft_portraitSN_hvx_stub.so
 odm/lib64/libarcsoft_portrait_super_night_raw.so
 odm/lib64/libarcsoft_preview_antibanding.so
-odm/lib64/libarcsoft_qnnhtp.so;DISABLE_CHECKELF|760f3be31df910f991bcbf7dd5fe6af9545114e4
+odm/lib64/libarcsoft_qnnhtp.so|760f3be31df910f991bcbf7dd5fe6af9545114e4
 odm/lib64/libarcsoft_scbokeh_image.so
 odm/lib64/libarcsoft_scbokeh_video.so
 odm/lib64/libarcsoft_smart_denoise.so
