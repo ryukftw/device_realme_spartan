@@ -1063,7 +1063,7 @@ vendor/lib/soundfx/libeffectproxy.so|44289fe864b085d53c051ad42ed233727ced175c
 vendor/lib/soundfx/libhwdap.so|6348b774b3df7bd2f485186f2ebc3e84d9435df8
 vendor/lib/soundfx/libswdap.so|bd73d33628837d0e3aa18d85c5ffb8e95b87af1b
 vendor/lib/soundfx/libswgamedap.so|a4d17b610b5cd873bd82c28f7361ba66a5d2c48e
-vendor/lib/vendor.dolby.hardware.dms@2.0.so|73532d31c8fdad87b69e9cc1724dfc5b02a893e7
+vendor/lib/vendor.dolby.hardware.dms@2.0.so;MODULE_SUFFIX=_vendor|73532d31c8fdad87b69e9cc1724dfc5b02a893e7
 
 # DPM
 system_ext/bin/dpmd
