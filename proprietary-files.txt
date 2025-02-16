@@ -1036,8 +1036,6 @@ vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # Dolby from 9PRO OOS 11.2.8.8
-system_ext/priv-app/daxService/daxService.apk|0d1f71d0a58d909c05adacf5239503588b9d39ea
-system_ext/priv-app/DaxUI/DaxUI.apk|f2123124ddef928c7c490e2a83b0af5466a0df7e
 system/lib64/vendor.dolby.hardware.dms@2.0.so|0a1cb972160890b07baf3a3e624e9ec1273befed
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|84247a3563b362e97dacaa79d4845c1292a92f13
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
