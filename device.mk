@@ -126,6 +126,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
     persist.sys.brightness.low.gamma=true
 
 # Dolby Manager
+PRODUCT_PACKAGES += \
+    OplusDolby
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml
 
