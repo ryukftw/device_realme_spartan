@@ -173,9 +173,6 @@ drm.service.enabled=true
 persist.vendor.qfp=true
 persist.vendor.fp.template_updateflag=V1
 
-# FRP
-ro.frp.pst=/dev/block/bootdevice/by-name/frp
-
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
