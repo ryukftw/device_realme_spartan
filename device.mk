@@ -86,10 +86,6 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,QTI_GPT_UTILS,USE_BSG_FRAMEWORK,false)
 
-# Camera
-PRODUCT_PACKAGES += \
-    libstdc++_vendor
-
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64
@@ -113,7 +109,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.common-V1-ndk_platform.vendor \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
-    libgui_vendor \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service.rc \
     vendor.qti.hardware.display.composer-service.xml \
@@ -175,10 +170,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health-service.qti \
     android.hardware.health-service.qti_recovery
-
-# HIDL
-PRODUCT_PACKAGES += \
-    libutils.vendor
 
 # Hotword enrollment
 PRODUCT_COPY_FILES += \
