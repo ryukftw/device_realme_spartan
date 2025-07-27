@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lemonades.mk
+    $(LOCAL_DIR)/lineage_spartan.mk
