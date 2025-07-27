@@ -87,6 +87,7 @@ vendor.voice.path.for.pcm.voip=true
 
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
+bluetooth.device.default_name=OnePlus 9R
 bluetooth.hardware.power.idle_cur_ma=6
 bluetooth.hardware.power.operating_voltage_mv=3700
 bluetooth.hardware.power.rx_cur_ma=28
@@ -125,7 +126,9 @@ ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
 
 # Crypto
+ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.filenames_mode=aes-256-cts
+ro.crypto.volume.metadata.method=dm-default-key
 
 # Display
 vendor.display.disable_hw_recovery_dump=1
@@ -213,6 +216,7 @@ persist.vendor.sensors.sync_request=true
 sys.usb.mtp.batchcancel=1
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
+vendor.usb.product_string=OnePlus 9R
 vendor.usb.qdss.inst.name=qdss
 vendor.usb.rmnet.func.name=gsi
 vendor.usb.rmnet.inst.name=rmnet

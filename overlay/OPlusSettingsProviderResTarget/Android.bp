@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "OPlusSystemUIResCommon",
+    name: "OPlusSettingsProviderResTarget",
     device_specific: true,
 }
