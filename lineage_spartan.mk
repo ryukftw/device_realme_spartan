@@ -24,8 +24,8 @@ PRODUCT_MODEL := RMX3371
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="RMX3371-user 14 UKQ1.230924.001 S.1b1dd11-3259f-3259e release-keys" \
-    BuildFingerprint=realme/RMX3371/RE54E4L1:14/UKQ1.230924.001/S.1b1dd11-3259f-3259e:user/release-keys \
+    BuildDesc="RMX3371-user 14 UKQ1.230924.001 S.1ed3b13-9d91c-c8207 release-keys" \
+    BuildFingerprint=realme/RMX3371/RE54E4L1:14/UKQ1.230924.001/S.1ed3b13-9d91c-c8207:user/release-keys \
     DeviceName=RE54E4L1 \
     DeviceProduct=RMX3371 \
     SystemDevice=RE54E4L1 \

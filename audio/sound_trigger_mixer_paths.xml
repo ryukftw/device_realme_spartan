@@ -84,14 +84,13 @@
     <ctl name="ADC2_MIXER Switch" value="0" />
     <ctl name="DMIC1_MIXER Switch" value="0" />
     <ctl name="DMIC3_MIXER Switch" value="0" />
+    <ctl name="ADC1_MIXER Switch" value="0" />
+    <ctl name="ADC4_MIXER Switch" value="0" />
+    <ctl name="ADC1 Volume" value="12" />
+    <ctl name="ADC4 Volume" value="12" />
     <ctl name="LPI Enable" value="0" />
-    <ctl name="VA_DEC0 Volume" value="84" />
-    <ctl name="VA_DEC1 Volume" value="84" />
     <ctl name="ADC2 Volume" value="12" />
-    <ctl name="ADC2 MUX" value="INP2" />
-<!--- OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH   -->
-    <ctl name="VA_mic_clk" value="0P6MHZ" />
-<!--- OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH  -->
+    <ctl name="ADC2 MUX" value="ZERO" />
 
     <path name="listen-voice-wakeup-1">
         <ctl name="LSM1 Mixer VA_CDC_DMA_TX_0" value="1" />
@@ -240,44 +239,29 @@
     <path name="listen-ape-handset-mic">
         <ctl name="VA_CDC_DMA_TX_0 Channels" value="One" />
         <ctl name="VA_AIF1_CAP Mixer DEC0" value="1" />
-        <ctl name="VA DEC0 MUX" value="MSM_DMIC" />
-        <ctl name="VA DMIC MUX0" value="DMIC1" />
-        <ctl name="VA_DEC0 Volume" value="74" />
+        <ctl name="VA DEC0 MUX" value="SWR_MIC" />
+        <ctl name="VA SMIC MUX0" value="ADC3" />
+        <ctl name="ADC4_MIXER Switch" value="1" />
     </path>
 
     <path name="listen-ape-handset-mic-preproc">
         <path name="listen-ape-handset-mic" />
+        <ctl name="ADC4 Volume" value="6" />
     </path>
 
     <path name="listen-ape-handset-dmic">
-<!--- OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH   -->
-        <ctl name="VA_mic_clk" value="0P6MHZ" />
-<!--- OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH   -->
         <ctl name="VA_CDC_DMA_TX_0 Channels" value="Two" />
         <ctl name="VA_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="VA_AIF1_CAP Mixer DEC1" value="1" />
-        <ctl name="VA DEC0 MUX" value="MSM_DMIC" />
-        <ctl name="VA DEC1 MUX" value="MSM_DMIC" />
-        <ctl name="VA DMIC MUX0" value="DMIC1" />
-        <ctl name="VA DMIC MUX1" value="DMIC3" />
-        <ctl name="VA_DEC0 Volume" value="69" />
-        <ctl name="VA_DEC1 Volume" value="69" />
+        <ctl name="VA DEC0 MUX" value="SWR_MIC" />
+        <ctl name="VA DEC1 MUX" value="SWR_MIC" />
+        <ctl name="VA SMIC MUX0" value="ADC0" />
+        <ctl name="VA SMIC MUX1" value="ADC3" />
+        <ctl name="ADC1 Volume" value="6" />
+        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="ADC1_MIXER Switch" value="1" />
+        <ctl name="ADC4_MIXER Switch" value="1" />
     </path>
-
-<!--- OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH   -->
-    <path name="listen-ape-handset-dmic-2P4mhz">
-        <ctl name="VA_mic_clk" value="2P4MHZ" />
-        <ctl name="VA_CDC_DMA_TX_0 Channels" value="Two" />
-        <ctl name="VA_AIF1_CAP Mixer DEC0" value="1" />
-        <ctl name="VA_AIF1_CAP Mixer DEC1" value="1" />
-        <ctl name="VA DEC0 MUX" value="MSM_DMIC" />
-        <ctl name="VA DEC1 MUX" value="MSM_DMIC" />
-        <ctl name="VA DMIC MUX0" value="DMIC1" />
-        <ctl name="VA DMIC MUX1" value="DMIC3" />
-        <ctl name="VA_DEC0 Volume" value="83" />
-        <ctl name="VA_DEC1 Volume" value="83" />
-    </path>
-<!--- OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH   -->
 
     <path name="listen-ape-handset-tmic">
         <ctl name="VA_CDC_DMA_TX_0 Channels" value="Three" />
