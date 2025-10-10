@@ -4,17 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-on property:ro.boot.rf_version=11
+on property:ro.boot.prjname=21623
     setprop ro.boot.hardware.revision "CN"
 
-on property:ro.boot.rf_version=12
-    setprop ro.boot.hardware.revision "TMO"
-
-on property:ro.boot.rf_version=13
-    setprop ro.boot.hardware.revision "IN"
-
-on property:ro.boot.rf_version=14
+on property:ro.boot.prjname=21733
     setprop ro.boot.hardware.revision "EU"
 
-on property:ro.boot.rf_version=15
-    setprop ro.boot.hardware.revision "NA"
+on property:ro.boot.prjname=21732
+    setprop ro.boot.hardware.revision "IN"
