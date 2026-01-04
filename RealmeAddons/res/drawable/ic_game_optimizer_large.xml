@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2025 The LineageOS Project
+
+ SPDX-License-Identifier: Apache-2.0
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Game controller outline -->
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M70,32H26c-6,0 -11,4.5 -12,10.5L10,64c-0.8,5 1.5,10 7,10c2,0 4,-0.8 5.5,-2.2L28,66h40l5.5,5.8c1.5,1.4 3.5,2.2 5.5,2.2c5.5,0 7.8,-5 7,-10L82,42.5C81,36.5 76,32 70,32z" />
+
+    <!-- D-pad -->
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M36,48h-6v6h-4v-6h-6v-4h6v-6h4v6h6z" />
+
+    <!-- Buttons (A/B style) -->
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M58,46m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M68,52m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+
+</vector>

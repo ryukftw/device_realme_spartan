@@ -134,6 +134,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom.ramdisk
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    RealmeAddons
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \

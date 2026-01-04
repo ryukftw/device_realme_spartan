@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="device_settings_app_name">Realme Addons</string>
+    <string name="device_settings_title">Realme Addons</string>
+    <string name="device_settings_summary">Advanced features and customizations</string>
+
+    <!-- Display category -->
+    <string name="display_category_title">Display</string>
+
+    <!-- Anti-flicker -->
+    <string name="anti_flicker_title">Anti-flicker</string>
+    <string name="anti_flicker_summary">Reduce eye strain in low brightness by eliminating screen flicker</string>
+    <string name="anti_flicker_tile_title">Anti-flicker</string>
+
+    <!-- Bypass Charging -->
+    <string name="bypass_charging_title">Bypass Charging</string>
+    <string name="bypass_charging_summary">Power device directly from charger, bypass battery to reduce heat during intensive tasks</string>
+    <string name="bypass_charging_unavailable_summary">Connect charger to enable this feature</string>
+    <string name="bypass_charging_tile_title">Bypass Charging</string>
+
+    <!-- GameBar Overlay -->
+    <string name="game_bar_title">GameBar</string>
+    <string name="game_bar_summary">Enable the system overlay (FPS, Temp, etc.)</string>
+    <string name="overlay_permission_required">Overlay permission is required</string>
+    <string name="overlay_permission_granted">Overlay permission granted</string>
+    <string name="overlay_permission_denied">Overlay permission denied</string>
+    <string name="game_bar_tile_label">GameBar</string>
+    <string name="game_bar_tile_description">Toggle the game overlay</string>
+
+    <!-- Game Optimizer -->
+    <string name="game_optimizer_title">Game Tools</string>
+    <string name="game_optimizer_summary">Optimize device performance for gaming</string>
+    <string name="game_optimizer_description">Enhance your gaming experience with optimized performance settings and battery management features designed for extended gaming sessions</string>
+
+    <!-- Game Optimizer Categories -->
+    <string name="game_optimizer_performance_title">Performance Optimization</string>
+    <string name="game_optimizer_thermal_title">Thermal Management</string>
+    <string name="game_optimizer_network_title">Network Optimization</string>
+    <string name="game_optimizer_display_title">Display Optimization</string>
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_profile_title">Thermal Profiles</string>
+    <string name="thermal_profile_summary">Manage per-app thermal performance profiles</string>
+    <string name="thermal_profile_description">Optimize device thermal performance with intelligent per-app profile management. Choose different thermal profiles for each app to balance performance, battery life, and temperature control based on your usage needs.</string>
+    <string name="thermal_profile_tile_title">Thermal Profile</string>
+    <string name="thermal_current_profile">Current Profile</string>
+    <string name="thermal_auto_switch">Automatic Profile Switching</string>
+    <string name="thermal_auto_switch_summary">Automatically switch thermal profile based on foreground app</string>
+    <string name="thermal_auto_switch_title">Auto-Switch Profiles</string>
+    <string name="thermal_auto_switch_category">Automatic Switching</string>
+    <string name="thermal_app_profiles_category">App Thermal Profiles</string>
+    <string name="thermal_app_manager_title">App Thermal Profiles</string>
+    <string name="thermal_app_selector_title">Select Apps</string>
+    <string name="thermal_manage_apps">Manage App Profiles</string>
+    <string name="thermal_manage_apps_summary">Configure thermal profiles for specific apps</string>
+    <string name="thermal_no_apps">No apps configured</string>
+    <string name="thermal_add_app">Add App</string>
+    <string name="thermal_remove_app">Remove</string>
+    <string name="thermal_select_profile">Select Thermal Profile</string>
+    <string name="thermal_profile_changed">Thermal profile changed to %s</string>
+
+    <!-- Thermal Profile States -->
+    <string name="thermal_profile_default">Default</string>
+    <string name="thermal_profile_benchmark">Benchmark</string>
+    <string name="thermal_profile_browser">Browser</string>
+    <string name="thermal_profile_camera">Camera</string>
+    <string name="thermal_profile_dialer">Dialer</string>
+    <string name="thermal_profile_gaming">Gaming</string>
+    <string name="thermal_profile_streaming">Streaming</string>
+
+    <!-- Thermal Profile Descriptions -->
+    <string name="thermal_profile_default_desc">Balanced performance and thermal management</string>
+    <string name="thermal_profile_benchmark_desc">Maximum performance, ignore thermal limits</string>
+    <string name="thermal_profile_browser_desc">Optimized for web browsing</string>
+    <string name="thermal_profile_camera_desc">Optimized for camera and video recording</string>
+    <string name="thermal_profile_dialer_desc">Low power mode for calls</string>
+    <string name="thermal_profile_gaming_desc">High performance for gaming</string>
+    <string name="thermal_profile_streaming_desc">Optimized for video streaming</string>
+</resources>

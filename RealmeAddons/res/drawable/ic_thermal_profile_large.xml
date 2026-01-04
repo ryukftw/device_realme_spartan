@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2025 The LineageOS Project
+
+ SPDX-License-Identifier: Apache-2.0
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Thermometer outline -->
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="4.5"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M48,12 a9,9 0,0,0 -9,9 v39.75 a15,15 0,1,0 18,0 V21 a9,9 0,0,0 -9,-9 z" />
+
+    <!-- Mercury bulb (filled) -->
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M48,72m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+
+    <!-- Mercury column -->
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M48,27 L48,63" />
+
+    <!-- Scale marks on the right -->
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M60,33 L69,33 M60,42 L69,42 M60,51 L69,51" />
+
+</vector>
